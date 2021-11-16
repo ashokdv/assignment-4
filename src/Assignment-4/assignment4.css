@@ -5,3 +5,111 @@
 width: 100%;
 height: 100%;
 }
+
+header,nav,footer,section{
+    display: block;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+
+/* header{
+    background-color: bisque;
+    padding: 0px 25px;
+    height: 50px;
+} */
+header {
+    background: #92E0E5;
+    color: white;
+    height: 50px;
+    padding: 0 25px;
+  }
+/* 
+.nav_li{
+    float:right;
+} */
+
+header h1{
+    float: left;
+    text-indent: -9999px;
+    background: url('./images/images/dog-icon.svg') no-repeat;
+    width: 35px;
+    height: 35px; 
+    margin-top: 8px;
+}
+header nav{
+    float: right;   
+}
+
+nav li{
+    display: inline-block;
+    padding: 17px 10px;
+}
+
+nav li:hover{
+    color: black;
+    cursor: pointer;
+    background: blanchedalmond;
+}
+
+section h1{
+    text-align: center;
+}
+.hero{
+    background: url('./images/images/park.jpg') no-repeat;
+    text-align: center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin-bottom: 50px;
+}
+.hero img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 5px solid blue;
+    margin-bottom: 30px;
+}
+.hero a{
+    border: 5px solid blueviolet;
+    padding: 5px 10px;
+    background: white;
+}
+
+.hero a:hover{
+    color: palegreen;
+}
+
+
+.firstimg,.secondimg,.thirdimg{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 20px;
+}
+.firstimg img,.secondimg img,.thirdimg img{
+    border-radius: 50%;
+    border: 2px solid steelblue;
+}
+
+.firstimg a,.secondimg a,.thirdimg a{
+    border: 1px solid black ;
+    padding: 15px 15px;
+}
+
+footer {
+    background: #92E0E5;
+    color: black;
+    height: 150px;
+    padding: 20px 0px;
+    text-align: center;
+    margin-top: 40px;
+  }
+footer ul,footer h4{
+    text-align: center;
+}
+
+footer ul li{
+    display: inline-block;
+}
